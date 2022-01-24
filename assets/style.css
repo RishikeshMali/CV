@@ -77,6 +77,29 @@ li {
     margin-bottom: 15px;
 }
 
+.checked {
+    color: #0187de;
+  }
+
+.rate1 {
+    margin-right: 200px;
+}
+.rate2 {
+    margin-right: 212px;
+}
+.rate3 {
+    margin-right: 158px;
+}
+.rate4 {
+    margin-right: 89px;
+}
+.rate5 {
+    margin-right: 108px;
+}
+.rate6 {
+    margin-right: 115px;
+}
+
 #name {
     margin-left: 4%;
     padding-top: 30px;
