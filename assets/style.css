@@ -1,0 +1,81 @@
+* {
+    font-family: Century Gothic;
+    margin: 0px;
+}
+.header {
+    color: rgb(255, 255, 255);
+    background-color: #0187de;
+    /* margin: 8%; */
+    margin-top: 2%;
+    padding-bottom: 0.5%;
+    font-size: x-large;
+}
+
+.des {
+    margin-top: 2%;
+    padding-bottom: 0.5%;
+    font-size: large;
+}
+.brief {
+    padding: 20px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+
+.work {
+    margin-left: 15%;
+}
+
+.work-title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.sub-title {
+    border-left: 5px solid #0187de;
+    color: #0187de;
+    font-weight: bold;
+    font-size: x-large;
+    /* background-color: #c1e6fffa; */
+    list-style-type: none;
+    padding: 10px 20px;
+  }
+
+.list {
+    margin-bottom: 30px;
+}
+
+.list-ex {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* margin-left: 13%; */
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+#name {
+    margin-left: 4%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+#position {
+    font-size: xx-large;
+    margin-left: 4%;
+    margin-bottom: 25px;
+}
+
+.sub {
+    /* margin-left: 4%; */
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 8px;
+}
