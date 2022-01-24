@@ -6,9 +6,28 @@
     color: rgb(255, 255, 255);
     background-color: #0187de;
     /* margin: 8%; */
-    margin-top: 2%;
+    margin-top: 5px;
     padding-bottom: 0.5%;
     font-size: x-large;
+    border-radius: 16px;
+}
+
+div.card {
+    margin: auto;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+.links {
+    text-decoration:none; 
+    color: rgb(255, 255, 255);
+    
+}
+.links:hover {
+    color :#ffffff;
+    text-shadow: 2px 2px 8px #000000;
 }
 
 .des {
