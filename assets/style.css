@@ -1,10 +1,16 @@
 * {
     font-family: Century Gothic;
     margin: 0px;
+    
 }
+
+body {
+    object-fit: contain; /* for to make responsive */
+}
+
 .header {
     color: rgb(255, 255, 255);
-    background-color: #0187de;
+    /* background-color: #0187de; */
     /* margin: 8%; */
     margin-top: 5px;
     padding-bottom: 0.5%;
@@ -54,8 +60,8 @@ div.card {
 }
 
 .sub-title {
-    border-left: 5px solid #0187de;
-    color: #0187de;
+    /* border-left: 5px solid #0187de; */
+    /* color: #0187de; */
     font-weight: bold;
     font-size: x-large;
     /* background-color: #c1e6fffa; */
@@ -120,4 +126,96 @@ li {
     font-weight: bold;
     font-size: x-large;
     margin-right: 8px;
+}
+
+/* Skills Gallery  */
+
+
+.first-row {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.second-row {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+/* ---------------------------------------------- */
+
+/* Responsive */
+
+@media screen and (min-width: 1201px){
+    div.card {
+        width: 70%;
+        /* margin: 50px; */
+    }
+    .header {
+        color: rgb(255, 255, 255);
+        background-color: #d966ff;
+    }
+    .sub-title {
+        border-left: 5px solid #d966ff;
+        color: #d966ff;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    div.card {
+        width: 80%;
+    }
+    .header {
+        color: rgb(255, 255, 255);
+        background-color: #f03535;
+    }
+    .sub-title {
+        border-left: 5px solid #f03535;
+        color: #f03535;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    div.card {
+        width: 85%;
+    }
+    .header {
+        color: rgb(255, 255, 255);
+        background-color: #f89019;
+    }
+    .sub-title {
+        border-left: 5px solid #f89019;
+        color: #f89019;
+    }
+}
+
+@media screen and (max-width: 768px){
+    div.card {
+        width: 90%;
+    }
+    .header {
+        color: rgb(255, 255, 255);
+        background-color: #9966ff;
+    }
+    .sub-title {
+        border-left: 5px solid #9966ff;
+        color: #9966ff;
+    }
+}
+
+@media screen and (max-width: 480px){
+    div.card {
+        width: 99%;
+
+    }
+    .header {
+        color: rgb(255, 255, 255);
+        background-color: #ff6699;
+    }
+    .sub-title {
+        border-left: 5px solid #ff6699;
+        color: #ff6699;
+    }
 }
